@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "Paper Title Goes Here"
+message: "If you use this report, please cite it as below."
+type: report
+authors:
+  - family-names: Himpfen
+    given-names: Brandon
+version: "1.0"
+date-released: "YYYY-MM-DD"
+license: CC-BY-4.0
+keywords:
+  - keyword one
+  - keyword two
+  - keyword three
+doi: "[DOI]"
+url: "https://doi.org/[DOI]"
+preferred-citation:
+  type: report
+  title: "Paper Title Goes Here"
+  authors:
+    - family-names: Himpfen
+      given-names: Brandon
+  year: YYYY
+  version: "1.0"

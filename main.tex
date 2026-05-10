@@ -1,0 +1,123 @@
+\documentclass[11pt]{article}
+
+% Page layout and typography
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{parskip}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[round]{natbib}
+
+\setstretch{1.15}
+
+% Heading style
+\titleformat{\section}{\normalfont\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection}{1em}{}
+
+% Link style
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    citecolor=black,
+    linkcolor=black
+}
+
+\begin{document}
+
+\begin{center}
+{\LARGE \textbf{Paper Title Goes Here}}\\[0.5em]
+{\large Optional Subtitle Goes Here}\\[0.8em]
+
+Brandon Himpfen\\
+Independent Researcher\\[0.5em]
+
+Document type: Research report\\
+Version: 1.0\\
+Date: Month Day, Year\\
+Source article: \url{https://www.example.com/source-article/}
+\end{center}
+
+\vspace{1em}
+
+\section*{Abstract}
+
+Write a concise abstract of 150--250 words. State the topic, purpose, method or approach, key findings, and intended use of the report. Keep the tone neutral, analytical, and research-oriented.
+
+\textbf{Keywords:} keyword one; keyword two; keyword three; keyword four; keyword five
+
+\section{Introduction}
+
+Introduce the topic, problem, or research question. Explain why the issue matters and what this report contributes.
+
+\section{Background}
+
+Provide context, relevant prior work, market conditions, definitions, or conceptual framing.
+
+\section{Methodology}
+
+Describe how the report was prepared. For a synthesis paper, explain the sources reviewed, selection criteria, and analytical approach. For a framework paper, explain how the framework was developed.
+
+\subsection{Data Sources}
+
+Describe the sources used, such as public reports, datasets, industry publications, academic literature, or original analysis.
+
+\subsection{Analytical Approach}
+
+Describe how evidence was organized and interpreted.
+
+\subsection{Limitations}
+
+State limitations clearly. Examples include secondary-data constraints, inconsistent definitions, limited sample size, or lack of primary data.
+
+\section{Findings or Framework}
+
+Present the main analysis, framework, or findings.
+
+\subsection{Dimension One}
+
+Explain the first major component.
+
+\subsection{Dimension Two}
+
+Explain the second major component.
+
+\subsection{Dimension Three}
+
+Explain the third major component.
+
+\begin{table}[h]
+\centering
+\caption{Example Evaluation Matrix}
+\begin{tabular}{p{3.2cm} p{4.6cm} p{5cm}}
+\toprule
+\textbf{Dimension} & \textbf{Evaluation Question} & \textbf{Useful Evidence} \\
+\midrule
+Dimension One & What is being evaluated? & Evidence, indicators, metrics \\
+Dimension Two & What is being evaluated? & Evidence, indicators, metrics \\
+Dimension Three & What is being evaluated? & Evidence, indicators, metrics \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Discussion}
+
+Interpret the findings. Explain implications, tradeoffs, uncertainty, and areas where further research is needed.
+
+\section{Conclusion}
+
+Summarize the report's contribution and key takeaways. Keep the conclusion concise and avoid overclaiming.
+
+\section*{Author Note}
+
+This report is prepared as Version 1.0 for archival deposit and citation through Zenodo. Replace this note with any relevant context, source article link, repository link, or project note.
+
+\section*{Recommended Citation}
+
+Himpfen, B. (Year). \textit{Paper Title Goes Here} (Version 1.0) [Research report]. Zenodo. \url{https://doi.org/[DOI]}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

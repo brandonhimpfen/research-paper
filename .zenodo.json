@@ -1,0 +1,22 @@
+{
+  "title": "Paper Title Goes Here",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "creators": [
+    {
+      "name": "Himpfen, Brandon",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "description": "Brief description of the report. Summarize the purpose, scope, approach, and intended audience.",
+  "keywords": [
+    "keyword one",
+    "keyword two",
+    "keyword three",
+    "keyword four",
+    "keyword five"
+  ],
+  "license": "cc-by-4.0",
+  "version": "1.0",
+  "language": "eng"
+}
